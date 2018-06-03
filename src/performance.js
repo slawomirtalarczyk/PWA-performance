@@ -6,6 +6,7 @@ let numberOfArrays4eachSort = 20;
 let numberOfSorts4eachArray = 1;
 
 let testPerformance = function(){
+    document.getElementById("runTest").disabled = true;
     arrayLengths.forEach( (elem) => {
         totalTime = 0;
         for(let i=0; i<numberOfArrays4eachSort; i++){
