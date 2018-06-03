@@ -1,6 +1,6 @@
 
 let arrayLengths = [100, 1000, 5000, 10000, 20000];
-arrayLengths = [100, 1000];
+// arrayLengths = [100, 1000];
 // arrayLengths = [5000];
 let numberOfArrays4eachSort = 20;
 let numberOfSorts4eachArray = 1;
