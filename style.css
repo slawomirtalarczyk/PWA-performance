@@ -1,0 +1,10 @@
+body {
+    background-color: antiquewhite;
+    color: dimgray;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
