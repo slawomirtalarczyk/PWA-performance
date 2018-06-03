@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
+table#results {
+    width: 95%;
+}
+
+table#results td,
+table#results th {
+    border-bottom: 1px dotted black;
 }

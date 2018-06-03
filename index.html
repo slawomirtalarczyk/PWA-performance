@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello world PWA</title>
+    <title>Bubble sort Performance Test</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="all">
     <link rel="manifest" href="./manifest.json">
   </head>
   <body>
+    <script src="./src/bubbleSort.js"></script> 
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker
@@ -15,7 +16,14 @@
                     .then(() => { console.log('Service Worker Registered'); });
         }
     </script>
-    <h1>Hello World</h1>
-    <img src="lena.png" />
+
+    <h1>Performance test</h1>
+    <div id="progress"></div>
+    <table id="results">
+      <thead><tr><th>no. elements</th><th>avg. time [ms]</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <script src="./src/performance.js">
+    </script>
   </body>
 </html>

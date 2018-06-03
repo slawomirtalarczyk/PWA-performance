@@ -1,6 +1,6 @@
 {
-    "name": "Hello World PWA",
-    "short_name": "Hello",
+    "name": "Bubble Sort Performance Test",
+    "short_name": "Bubble",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#fff",
